@@ -4,7 +4,9 @@
   "description": "calculadora de impuestos",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack --mode production"
   },
   "keywords": [
     "ieps",
@@ -14,7 +16,17 @@
   "author": "Misael Gomez misael.gomez1623@gmail.com",
   "license": "MIT",
   "dependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "css-loader": "^6.7.3",
+    "mini-css-extract-plugin": "^2.7.2",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "style-loader": "^3.3.1"
+  },
+  "devDependencies": {
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0"
   }
 }
