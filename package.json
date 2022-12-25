@@ -1,0 +1,20 @@
+{
+  "name": "marva",
+  "version": "1.0.0",
+  "description": "calculadora de impuestos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ieps",
+    "iva16",
+    "iva0"
+  ],
+  "author": "Misael Gomez misael.gomez1623@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
