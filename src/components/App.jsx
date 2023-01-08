@@ -1,9 +1,15 @@
 import React from 'react';
-import '../styles/global.scss';
+import '../components/styles/global.css'
+import Layout from './containers/Layout';
+import Login from './containers/Login';
+import RecoveryPassword from './containers/RecoveryPassword';
 
 const App = () => {
     return (
-        <h1>Curso Práctico de React.js: Clase 8 -  Transformando HTML y CSS en componentes de React </h1>
+        <Layout>
+            <Login />
+            <RecoveryPassword/>
+        </Layout>
     );
 }
 
